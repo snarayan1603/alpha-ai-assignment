@@ -1,0 +1,11 @@
+node_modules
+*.log
+.env
+
+*.vite
+*vite/deps
+
+/logs/*
+
+.crt
+.key
