@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.use("/api/query", queryRouter);
+app.use("/api", queryRouter);
 
 const PORT = 4500;
 app.listen(PORT, () => logger.info(`Server running on port ${PORT}`));
